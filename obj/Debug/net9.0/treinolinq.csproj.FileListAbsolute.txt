@@ -12,3 +12,4 @@ C:\Users\SAMSUNG\Desktop\treinolinq\obj\Debug\net9.0\refint\treinolinq.dll
 C:\Users\SAMSUNG\Desktop\treinolinq\obj\Debug\net9.0\treinolinq.pdb
 C:\Users\SAMSUNG\Desktop\treinolinq\obj\Debug\net9.0\treinolinq.genruntimeconfig.cache
 C:\Users\SAMSUNG\Desktop\treinolinq\obj\Debug\net9.0\ref\treinolinq.dll
+C:\Users\SAMSUNG\Desktop\treinolinq\obj\Debug\net9.0\treinolinq.sourcelink.json

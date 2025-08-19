@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("treinolinq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+282816e95d2bb00cf927e250d9cd43cbadc7aaa0")]
 [assembly: System.Reflection.AssemblyProductAttribute("treinolinq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("treinolinq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
