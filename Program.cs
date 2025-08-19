@@ -43,11 +43,16 @@ namespace treinolinq
 
             
             var r1 = product.Where(p => p.Cat.Tier==1 && p.Price > 900.00); // where é um filtro que espera logica booleana
+            var r2 = product.Where(p => p.Cat.Name =="Tools").Select( p => (p.Name, p.Price));
 
-            string message= "> Tier 1 and Price > 900.00";
-
-
+            string message= "r1 > Tier 1 and Price > 900.00";
             Print(message, r1);
+
+            string message2= "r2 > Category name Tools and prices";
+
+            Print(message2, r2);
+
+            
             
         }
     }
