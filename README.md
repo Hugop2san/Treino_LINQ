@@ -12,6 +12,8 @@ Para consultas assíncronas, utilize o namespace:
 using Microsoft.EntityFrameworkCore;
 ```
 ## EXEMPLOS: 
+
+```csharp
 // Buscar todos os registros
 var produtos = await _context.Produtos.ToListAsync();
 
@@ -34,9 +36,10 @@ int total = await _context.Produtos.CountAsync();
 
 // Obter o máximo valor
 decimal maxPreco = await _context.Produtos.MaxAsync(p => p.Preco);
-
+```
 ## Operações de Escrita (INSERT, UPDATE, DELETE):
 
+```csharp
 // Adicionar registro
 await _context.Produtos.AddAsync(novoProduto);
 await _context.SaveChangesAsync();
@@ -56,7 +59,7 @@ var produtosPaginados = await _context.Produtos
     .Skip(10)
     .Take(5)
     .ToListAsync();
-
+```
 ## REFERENCIAS 
 https://learn.microsoft.com/en-us/ef/core/?utm_source=chatgpt.com
 
